@@ -2,10 +2,10 @@ package com.fundamentosSpringboot.fundamentos.component;
 import org.springframework.stereotype.Component;
 
 @Component
-public class componentImplement implements ComponentDepency {
+public class ComponentTwoImplement implements ComponentDepency {
 
     @Override
     public void saludar() {
-        System.out.println("HOLA MUNDO SPRINGBOOT!!!");
+        System.out.println("MAS QUE HOLA MUNDO!!! ");
     }
 }
